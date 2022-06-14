@@ -77,7 +77,7 @@ body {
 }
 .svg-tolstoy-logo path:nth-child(10) {
   animation: rainbow var(--animation-duration) steps(10) infinite;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 .svg-tolstoy-logo path:nth-child(11) {
   animation: rainbow var(--animation-duration) steps(10) infinite;
@@ -101,15 +101,15 @@ body {
 }
 .svg-tolstoy-logo path:nth-child(16) {
   animation: rainbow var(--animation-duration) steps(10) infinite;
-  animation-delay: 0.75s;
+  animation-delay: 0.8s;
 }
 .svg-tolstoy-logo path:nth-child(17) {
   animation: rainbow var(--animation-duration) steps(10) infinite;
-  animation-delay: 0.8s;
+  animation-delay: 0.85s;
 }
 .svg-tolstoy-logo path:nth-child(18) {
   animation: rainbow var(--animation-duration) steps(10) infinite;
-  animation-delay: 0.85s;
+  animation-delay: 0.9s;
 }
 /* Variant 3 with 2 cycles */
 @keyframes rainbow {
