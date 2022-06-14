@@ -1,0 +1,145 @@
+/* Variables */
+:root {
+  --color-dark: #121212;
+
+  --bg-dark: var(--color-dark);
+}
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+}
+
+.example {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exaple-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Tolstoy Logo */
+.svg-tolstoy-logo {
+  width: calc(101.21px * 2);
+  height: calc(30px * 2);
+}
+
+.svg-tolstoy-logo path:nth-child(1) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.05s;
+}
+.svg-tolstoy-logo path:nth-child(2) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.1s;
+}
+.svg-tolstoy-logo path:nth-child(3) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.15s;
+}
+.svg-tolstoy-logo path:nth-child(4) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.2s;
+}
+.svg-tolstoy-logo path:nth-child(5) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.25s;
+}
+.svg-tolstoy-logo path:nth-child(6) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.3s;
+}
+.svg-tolstoy-logo path:nth-child(7) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.35s;
+}
+.svg-tolstoy-logo path:nth-child(8) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.4s;
+}
+.svg-tolstoy-logo path:nth-child(9) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.45s;
+}
+.svg-tolstoy-logo path:nth-child(10) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.5s;
+}
+.svg-tolstoy-logo path:nth-child(11) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.55s;
+}
+.svg-tolstoy-logo path:nth-child(12) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.6s;
+}
+.svg-tolstoy-logo path:nth-child(13) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.65s;
+}
+.svg-tolstoy-logo path:nth-child(14) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.7s;
+}
+.svg-tolstoy-logo path:nth-child(15) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.75s;
+}
+.svg-tolstoy-logo path:nth-child(16) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.75s;
+}
+.svg-tolstoy-logo path:nth-child(17) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.8s;
+}
+.svg-tolstoy-logo path:nth-child(18) {
+  animation: rainbow 0.5s steps(8) infinite;
+  animation-delay: 0.85s;
+}
+
+@keyframes rainbow {
+  0%,
+  12.5% {
+    fill: #f6be00;
+  }
+  12.5%,
+  25% {
+    fill: #97d700;
+  }
+  25%,
+  37.5% {
+    fill: #00ab84;
+  }
+  37.5%,
+  50% {
+    fill: #00a3e0;
+  }
+  50%,
+  62.5% {
+    fill: #5461c8;
+  }
+  62.5%,
+  75% {
+    fill: #c724b1;
+  }
+  75%,
+  87.5% {
+    fill: #e4002b;
+  }
+  87.5%,
+  100% {
+    fill: #ff6900;
+  }
+}
